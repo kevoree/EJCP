@@ -2707,7 +2707,172 @@ public class TempSensor
   
       
         -->
-     
+    
+<section class="slide shout"><div>
+    <h2><span class="kevOrange">></span>Kevoree wrap up </h2>
+</div></section>
+
+
+<!-- Last slide, last chance -->
+
+<section class="slide"><div>
+    <h2>Kevoree in a nutshell, if you got lost...<span class="kevOrange iconraph">R</span></h2>
+    <ul>
+        <li>Kevoree <span class="iconic move_horizontal_alt2 kevOrange kevIcon"></span> Abstraction model for architectural diversity<span class="kevOrange iconraph">Ü</span></li>
+        <li>Model@Runtime eases the management of distributed systems <span class="kevOrange iconraph">P</span></li>
+        <li>Homogeneous adaptation for heterogeneous CPS devices</li>
+        <li>Large scale adaptation dissemination (Gossip, Paxos, etc.)</li>
+        <li>Ready for cloud and elasticity algorithms development <span class="kevOrange iconraph">k</span></li>
+        <li>Open source <span class="iconraph kevOrange">U</span></li>
+        <li>Still lost, <span class="kevOrange iconraph">>=M</span> <a href="http://www.kevoree.org">www.kevoree.org</a></li>
+    </ul>
+</div></section>
+
+
+    <section class="slide shout"><div>
+    <h2><span class="kevOrange">></span>Research topics</h2>
+    </div></section>  
+
+    <!-- So what...-->
+    <section class="slide"><div>
+        <h2><span class="ion-map kevOrange"></span> So what ? How to generate M@R ?</h2>
+        <p><span class="ion-pin kevOrange"></span> Model modifications are <span class="kevOrange">reactions</span> ? How to ? Like a sticky polymer...</p>
+        <div style="text-align:center;">
+                <img src="pictures/img25.jpg" style="border-radius:10px;" />
+        </div>
+    </div></section>
+        
+
+    <section class="slide"><div>
+        <h2 style="margin-bottom:0px;"><span class="kevOrange fa fa-puzzle-piece"></span> Kevoree Modeling Framework - KMF</h2>
+        <i class="kevGray"> http://kevoree.org/kmf/</i>
+        <img src="pictures/kevoree/evalA3_1.png" style="position:absolute;bottom:200px;height:180px;margin-left:-280px;" />
+        <img src="pictures/kevoree/evalB3.png" style="position:absolute;bottom:20px;height:180px;margin-left:-280px;" />
+        <ul>
+            <li>Efficiency</li>
+        </ul>
+    </div></section>
+    
+    <section class="slide"><div>
+        <h2 style="margin-bottom:0px;"><span class="kevOrange fa fa-puzzle-piece"></span> Kevoree Modeling Framework - KMF</h2>
+        <i class="kevGray"> http://kevoree.org/kmf/</i>
+        <img src="pictures/kevoree/partialClone2.png" style="position:absolute;bottom:40px;height:260px;margin-left:-280px;" />
+        <img src="pictures/kevoree/partialClonerExperiment.png" style="position:absolute;bottom:40px;height:260px;right:80px;" />
+        <ul>
+            <li>Efficiency</li>
+            <li>Lazy Cloning</li>
+        </ul>
+    </div></section>
+
+    
+
+
+
+    <!-- Time relative naviguation...-->
+    <section class="slide"><div>
+        <h2><span class="ion-clock kevOrange"></span> Timed history modeling</h2>
+        <div>
+            <ul>
+                <li><b class="kevOrange">KMF</b> foundation</li>
+                <li><span class="kevOrange kevIcon ion-android-storage"></span> From model snapshots to timed elements</li>
+                <li>Models allow navigation accross elements</li>
+                <li><span class="kevOrange kevIcon ion-ios7-navigate"></span> We link as well <span class="kevOrange">versions</span> of elements!</li>
+                <li>Enabling <span class="kevOrange">virtual timed context models</span></li>
+                <li><span class="kevIcon kevOrange ion-social-buffer"></span> <span class="kevOrange">BigData for Models</span></li>
+            </ul>
+        </div>
+        <img src="pictures/flatTime.png" style="position:absolute;right:20px;top:80px;width:380px;" />
+        <img src="pictures/continuumTime.png" style="position:absolute;right:20px;top:360px;width:380px;" />
+    </div></section>   
+
+    <section class="slide"><div>
+        <h2 style="margin-bottom:0px;"><span class="kevOrange fa fa-puzzle-piece"></span> Kevoree Modeling Framework - KMF</h2>
+        <i class="kevGray"> http://kevoree.org/kmf/</i>
+        <img src="pictures/kevoree/SampledContext.png" style="position:absolute;bottom:250px;right:100px;height:220px;" />
+        <img src="pictures/kevoree/TimeDistortedContext.png" style="position:absolute;bottom:30px;right:100px;height:220px;" />
+        <ul>
+            <li>Efficiency</li>
+            <li>Lazy Cloning</li>
+            <li>Events</li>
+            <li>No Dependencies</li>
+            <li>Persistency</li>
+            <li>Native Mechanisms Time-related data</li>
+        </ul>
+    </div></section>
+
+    <section class="slide"><div>
+        <h2><span class="ion-clock kevOrange"></span> CREOS SmartGrid application</h2>
+        <ul>
+            <li><span class="kevOrange">Reactive security</span> for SmartGrid <span class="ion-navicon-round kevOrange kevIcon"></span> reactions on meters, from the grid</li>
+            <li><span class="kevGray">For instance</span>: <i>reduce the max acceptance level of meters</i></li>
+            <li><span class="kevOrange kevIcon"></span> To emit reactions, we need neighboors informations and past history</li>
+            <li>We apply this modeling techniques to <span class="kevOrange">explore context in SmartHubs</span></li>
+        </ul>
+        <span class="kevOrange ion-flag"></span> Preliminary result on fake reasoning engine, 1 Million SmartMeters:
+        <div style="text-align:center;">
+            <img src="pictures/TimeResult.png" style="width:70%;" />
+        </div>
+    </div></section>
+          
+    <!-- Hyper-heuristics -->
+    <section class="slide"><div>
+        <h2><span class="ion-social-buffer kevOrange"></span> Reason about actions</h2>
+            <ul>
+                <li><span class="kevOrange">Polymer</span> foundation</li>
+                <li><span class="kevOrange">Try to solve</span> M@R multi-objectives</li>
+                <li><span class="kevOrange kevIcon ion-chatbox-working"> Evolutionary algorithms</span></li>
+                <li>Hyper-heuristics to fit runtime executions</li>
+                <li><span class="kevOrange kevIcon ion-speedometer"></span> Tracking sucessfull mutations on objectives</li>
+                <li>Learn and reproduce it, when objectives issues</li>
+                <li><span class="kevOrange ion-code-download kevIcon"> Artifical mutation</span> concept for MOEA</li>
+            </ul>
+        <img src="pictures/sputnik.png" style="position:absolute;right:20px;top:140px;width:370px;" />
+    </div></section> 
+
+        
+    <!-- Hyper-heuristics application-->
+    <section class="slide"><div>
+        <h2><span class="ion-disc kevOrange"></span> Pimp my MODELS</h2>
+            <ul>
+                <li><span class="kevOrange">Polymer</span> is a transverval framework</li>
+                <li><span class="kevOrange kevIcon ion-battery-charging"></span> Sputnik hyper-heuristics and batteries included !</li>
+                <li>Application on <span class="kevOrange">CREOS</span> reasoning engine <i class="kevGray">(greedy/fullsearch)</i></li>
+                <li><span class="kevOrange kevIcon ion-cloud"></span> Application on <span class="kevOrange">CLOUD</span> computing elasticity <i class="kevGray">(genetic)</i></li>
+                <li>Application on <span class="kevOrange">POST SmartHome</span> reasoning engine <i class="kevGray">(greedy/genetic)</i></li>
+            </ul>
+        <p class="note">Open source and public now ! http://kevoree.org/polymer</p>
+    </div></section> 
+
+    <section class="slide"><div>
+        <h2><span class="ion-disc kevOrange"></span> Polymer</h2>
+        <pre style="padding:0px;"><code style="margin-left:-80px;padding:0px;line-height:40px;font-size:15pt;">GeneticEngine&lt;Cloud&gt; engine = new GeneticEngine&lt;Cloud&gt;(); 
+engine.setAlgorithm(GeneticAlgorithm.EpsilonCrowdingNSGII);
+engine.addOperator(new AddNodeMutator());
+engine.addOperator(new RemoveNodeMutator());
+engine.addOperator(new AddSoftwareMutator());
+engine.addFitnessFuntion(new CloudCostFitness());
+engine.addFitnessFuntion(new CloudLatencyFitness());
+engine.setMutationSelectionStrategy(MutationSelectionStrategy.SPUTNIK_ELITIST);
+engine.setMaxGeneration(300);
+engine.run();
+</code></pre>
+    </div></section>
+
+ <!-- Next Dream -->
+    <section class="slide"><div>
+		<h2><span class="kevOrange ion-beaker"></span> Bio-inspired approches in progress...</h2>
+		<ul>
+			<li><span class="kevOrange">Pandemic</span> system synchronization <i class="kevGray">(Kevoree/Thesis)</i></li>
+			<li><span class="kevOrange">Artifical mutation</span> for problem solving <i class="kevGray">(Polymer)</i></li>
+			<li><span class="kevOrange">Generational crossover</span> hyper-heuristic <i class="kevGray">(Polymer)</i></li>
+			<li><span class="kevOrange">Diversity</span> for resiliance <i class="kevGray">(Polymer - w Brittany)</i></li>
+			<li><span class="kevOrange">Scary man</span> escape security <i class="kevGray">(Kevoree/Cloud)</i></li>
+			<li><span class="kevOrange">Self-healing</span> polymer <i class="kevGray">(Kevoree SmartHome/Grid/Cloud)</i></li>
+			<li><span class="kevOrange">Time relativity</span> in model navigation <i class="kevGray">(KMF/SmartGrid)</i></li>
+		</ul>
+        <img src="pictures/showmethecode.png" style="position:absolute;right:20px;top:220px;width:275px;" />
+	</div></section>
+
     <section class="slide"><div>
         <h2><span class="kevOrange fa fa-tint"></span> Last months publications <span class="icon-comments-alt kevOrange"></span></h2>
     <div>
